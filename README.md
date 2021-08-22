@@ -51,12 +51,12 @@ Create a new network like BSC, but call it the Satoshi Chain. And instead of BNB
 4. Native Cross-Chain Bridge: Satoshi Chain will be implemented with native support for a cross-chain bridge between Bitcoin and Satoshi Chain Bitcoin. The communication protocol should be bi-directional, decentralized, and trustless, obtained with RenVM technology. However, this topic needs further investigation as the off-chain custody model may require institutional investors to partake in consensus.
 
 **Consensus**
+- Block production time should target below 5 seconds
+- The finality of transaction should be less than 1 minute
+- There is no inflation of native token: SCBTC, the block reward is collected from transaction fees, and it will be paid in SCBTC
+- It is compatible with the Ethereum
+- It allows modern proof-of-stake blockchain network governance, using NKMT and BTC
 
-Block production time should target below 5 seconds
-The finality of transaction should be less than 1 minute
-There is no inflation of native token: SCBTC, the block reward is collected from transaction fees, and it will be paid in SCBTC
-It is compatible with the Ethereum
-It allows modern proof-of-stake blockchain network governance, using NKMT and BTC
 
 **1st Stage PoA**
 
